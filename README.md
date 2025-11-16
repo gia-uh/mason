@@ -1,12 +1,13 @@
 # 🧱 MASON
 
-> Model Adaptation & Synthetic Optimization eNgine
+> **Model Adaptation & Synthetic Optimization eNgine**
 
 MASON is an end-to-end toolkit designed to automate the complex workflow of creating domain-specific, small language models. It takes you from your raw documents (PDFs, DOCX, etc.) to a fully trained, evaluated, and deployment-ready model.
 
 The core of MASON is **Synthetic Optimization**: it uses strong "judge" LLMs (like GPT-4) to generate a high-quality, synthetic instruction dataset from your own knowledge base. It then uses this data to **adapt** an open-source base model (like Llama 3 or Phi-3) using Parameter-Efficient Fine-Tuning (PEFT).
 
-> ![WARNING] **MASON is under construction**
+> ⚠️ **MASON is under construction**
+>
 > This project is still in a very early stage and not ready for production.
 > Most of the features explained in this README are still under design.
 > The API can and will change dramatically before we reach version 1.0.
