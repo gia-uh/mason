@@ -1,7 +1,7 @@
 [project]
-name = "mason"
+name = "mason-ai"
 version = "0.1.0"
-description = "Add your description here"
+description = "An opinionated toolkit for small language models customization"
 readme = "README.md"
 authors = [
     { name = "Alejandro Piad", email = "apiad@apiad.net" }
@@ -14,6 +14,9 @@ dependencies = [
     "transformers>=4.57.1",
     "typer>=0.20.0",
 ]
+
+[tool.hatch.build.targets.wheel]
+packages = ["mason"]
 
 [project.scripts]
 mason = "mason.cli:app"

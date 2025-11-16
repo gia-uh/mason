@@ -42,7 +42,7 @@ def main(
 
 app.command(name="merge")(merge)
 app.command(name="chat")(chat)
-app.command(name="convert")(convert_to_gguf)
+app.command(name="export")(convert_to_gguf)
 
 
 if __name__ == "__main__":
