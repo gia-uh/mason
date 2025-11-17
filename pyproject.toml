@@ -8,11 +8,14 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "beaver-db>=1.0.0",
+    "lingo-ai>=0.3.1",
     "llama-cpp-python>=0.3.16",
     "peft>=0.18.0",
     "rich>=14.2.0",
     "transformers>=4.57.1",
     "typer>=0.20.0",
+    "unsloth>=2025.11.3",
 ]
 
 [tool.hatch.build.targets.wheel]
